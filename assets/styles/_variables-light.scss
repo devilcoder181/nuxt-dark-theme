@@ -1,0 +1,16 @@
+
+    
+    html{
+        --bg-color: #fff;
+        --text-bg: #e1f4ff;
+        --text-main: #000;
+        --text-color: rgb(22, 34, 46); 
+        --brand-color: #037ec5;
+        --brand-color-2: #7cc7f0; 
+    }
+    html[data-theme="dark"]{
+        --bg-color: #000;
+        --text-bg: #182d3a; 
+        --text-main: #fff;
+        --text-color: rgb(130, 178, 226); 
+    }

@@ -1,0 +1,84 @@
+@import 'variables-dark';
+
+html {
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    @media screen and (max-width:991px) {
+        font-size: 14px;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px;
+    font-size: 100%;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 0;
+    margin: 0;
+    color: var(--text-main);
+    background-color: var(--bg-color);
+}
+
+
+.container{
+    max-width: 75%;
+    min-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0.75em 1.5em;
+    border-radius: 0.25em;
+    background-color: var(--brand-color);
+    color: var(--bg-color);
+    font-size: 0.9vw;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+    &:hover, &:focus, &:active{
+        background-color:var(--brand-color)-2;
+        box-shadow: 1px 1px 10px var(--brand-color);
+    }
+}
+
+.banner{
+    background-color: var(--text-bg);
+
+    h1{
+        color: var(--text-color);
+    }
+
+    label{
+        color: var(--text-color);
+    }
+}
+
+.widget_wrapper{
+    .item_{
+        background-color: var(--text-bg);
+
+        h4{
+            color: var(--text-color);
+        }
+
+        p{
+            color: var(--text-color);
+        }
+    }
+} 
